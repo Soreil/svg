@@ -29,7 +29,7 @@ func decode(input []byte) (image.Image, error) {
 	if err := cmd.Run(); err != nil {
 		return nil, err
 	}
-	img, err := png.Decode(bytes.NewReader(out.Bytes()))
+	img, err := png.Decode(&out)
 	if err != nil {
 		return nil, err
 	}
