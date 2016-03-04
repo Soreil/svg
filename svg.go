@@ -12,12 +12,6 @@ import (
 	"strings"
 )
 
-/*
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg onload="loaded()" xmlns="http://www.w3.org/2000/svg
-*/
-
-//TODO(sjon): put actual header here
 const svgHeader = `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg onload="loaded()" xmlns="http://www.w3.org/2000/svg`
 
