@@ -6,8 +6,10 @@ import (
 	"testing"
 )
 
-const dataDir = "testData/"
-const input = dataDir + "The United States of America.svg"
+//const dataDir = "testData/"
+//const input = dataDir + "The United States of America.svg"
+const dataDir = "../imager/inputData/"
+const input = dataDir + "acid.svg"
 const output = input + ".png"
 
 func TestSVG(t *testing.T) {
